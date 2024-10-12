@@ -22,7 +22,6 @@ services:
     environment:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=postgres
-      - POSTGRES_DB=email_sender
 
   frontend:
     image: nginx:1.13
